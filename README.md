@@ -30,7 +30,8 @@ This is a simple FoodPacked landing page created as part of a freeCodeCamp cours
 ### Usage
 
 1. Open the `index.html` file in your preferred web browser to view the FoodPacked landing page.
-2. Use the navigation bar to explore different sections of the page.
+2. Alternatively, you can access the live site [here](https://abelgideon.github.io/FoodPacked/).
+3. Use the navigation bar to explore different sections of the page.
 
 ### File Structure
 
