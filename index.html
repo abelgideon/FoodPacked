@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoodPacked</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/f1d125adc2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="flex" id="header">
+      <img id="header-img" src="https://png.pngtree.com/png-vector/20220705/ourmid/pngtree-food-logo-png-image_5687686.png"/>
+      <nav id="nav-bar">
+        <ul class="flex">
+          <li><a class="nav-link" href="#features-section">Features</a></li>
+          <li><a class="nav-link" href="#video-section">How it works</a></li>
+          <li><a class="nav-link" href="#pricing-section">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="sign-up">
+      <h1>Homemade, organic packaged foods
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input name="email" type="email" id="email" placeholder="Enter your email" />
+        <input id="submit" type="submit" value="get started" />
+      </form>
+    </section>
+
+    <section id="features-section">
+      <div class="icon-text flex">
+        <i class="fa-3x fa-solid fa-carrot"></i>
+        <div class="description">
+          <h2>Organic Products</h2>
+          <p>Discover our range of organic products, carefully sourced to bring you the purest and most natural ingredients.</p>
+        </div>
+      </div>
+      <div class="icon-text flex">
+        <i class="fa-3x fa-solid fa-battery-full"></i>
+        <div class="description">
+          <h2>Quality Assurance</h2>
+          <p>Our commitment to quality assurance ensures that every product meets the highest standards of safety, freshness, and customer satisfaction.</p>
+        </div>
+      </div>
+      <div class="icon-text flex">
+        <i class="fa-3x fa-solid fa-truck"></i>
+        <div class="description">
+          <h2>Fast Delivery</h2>
+          <p>Enjoy fast and reliable delivery services that bring your favorite products straight to your doorstep in no time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-section">
+      <iframe
+        id="video"
+        title="YouTube video player"
+        allowfullscreen
+        frameborder="0"
+        src="https://www.youtube.com/embed/oY0_tpuGSKQ?si=sFcqOMvW81kCgWSK"
+      ></iframe>
+    </section>
+
+    <section id="pricing-section">
+      <div class="card">
+        <h3>Basic</h3>
+        <p id="price">$50</p>
+        <p>Essential</p>
+        <p>Features</p>
+        <p>Included</p>
+        <input type="button" value="SELECT">
+      </div>
+      <div class="card">
+        <h3>Standard</h3>
+        <p id="price">$100</p>
+        <p>Enhanced</p>
+        <p>Value</p>
+        <p>Package</p>
+        <input type="button" value="SELECT">
+      </div>
+      <div class="card">
+        <h3>Premium</h3>
+        <p id="price">$150</p>
+        <p>All</p>
+        <p>Inclusive</p>
+        <p>Benefits</p>
+        <input type="button" value="SELECT">
+      </div>
+    </section>
+  </body>
+</html>
